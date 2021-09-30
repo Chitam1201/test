@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="./style.css" rel="stylesheet">
+    <title>Cổng thông tin VLU</title>
+</head>
+<body>
+    <table border="1" cellspacing="0" cellpadding="0" width = "1200" height="1200" align="center">
+        <tr  class="header" height="50">
+            <td colspan="2"><img src="./logo-vlu.png" alt="Logo VanLang" width="240" height="120"></td>
+            
+        </tr>
+        <tr height="300">
+            <td class="aside" width="100" align="center">
+                <a href="./Index.html" class="aside_link">Home</a><br>
+                <a href="./Login.html" class="aside_link">Login</a><br>
+                <a href="./Dangkytaikhoan.html" class="aside_link">Đăng ký tài khoản</a><br>
+                <a href="./Thamdoykien.html" class="aside_link">Thăm dò ý kiến</a>
+            </td>
+            <td class="section" width="400">
+                <form action="./Index.html" method="POST">
+                    <table>
+                        <caption>ĐÓNG GÓP Ý KIẾN</caption>
+                        <tr>
+                            <td> <label for="HovaTen">Họ và tên:</label></td>
+                            <td> <input type="text" name="HovaTen"></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="NDgopy">Nội dung góp ý:</label></td>
+                            <td> <textarea name="NDgopy" cols="40" rows="5"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input type="reset" value="Cancel" style="background-color: blue; color: white;">
+                                <input type="submit" value="Gửi đi" style="background-color: blue; color: white;">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+        <tr class="footer" height="100">
+            <td colspan="2" align="center">80/68 Dương Quảng Hàm, P. 5, Q. Gò Vấp, Tp. Hồ Chí Minh</td>
+        </tr>
+    </table>
+</body>
+</html>

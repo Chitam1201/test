@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <link href="./style.css" rel="stylesheet">
+    <title>Cổng thông tin VLU</title>
+</head>
+<body>
+    <table border="1" cellspacing="0" cellpadding="0" width = "1200" height="1200" align="center">
+        <tr  class="header" height="50">
+            <td colspan="2"><img src="./logo-vlu.png" alt="Logo VanLang" width="240" height="120"></td>
+            
+        </tr>
+        <tr height="300">
+            <td class="aside" width="100" align="center">
+                <a href="./Index.html"  class="aside_link">Home</a><br>
+                <a href="./Login.html" class="aside_link">Login</a><br>
+                <a href="./Gopy.html" class="aside_link">Góp ý</a><br>
+                <a href="./Thamdoykien.html" class="aside_link">Thăm dò ý kiến</a>
+            </td>
+            <td class="section" width="400">
+                <form action="./Login.html" method="POST">
+                    <table>
+                        <caption>ĐĂNG KÝ TÀI KHOẢN</caption>
+                        <tr>
+                            <td colspan="2"> <input type="text" value="Nhập username"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"> <input type="text" value="Nhập mật khẩu"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"> <input type="text" value="Nhập địa chỉ email"></td>
+                        </tr>
+            
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td align="left">Ngày sinh</td>
+                                    </tr>
+                                    <tr>
+                                        <td> <input type="datetime" value="Mm/dd/yy"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td align="right">Giới tính</td>
+                                    </tr>
+                                    <tr>
+                                        <td> <select name="gender">
+                                            <option value="1">Nam</option>
+                                            <option value="2">Nữ</option>
+                                        </select></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <table>
+                                    <tr><td>Sở thích</td></tr>
+                                    <tr>
+                                        <td><input type="checkbox">Xem phim</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox">Nghe nhạc</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox">Đọc sách</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox">Du lịch</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <table>
+                                    <tr>
+                                        <td>Giới thiệu bản thân</td>
+                                    </tr>
+                                    <tr>
+                                        <td> <textarea name="Gioithieubanthan" cols="40" rows="5"></textarea></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input type="reset" value="Cancel">
+                                <input type="submit" value="Đăng ký">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+        <tr class="footer" height="100">
+            <td colspan="2" align="center">80/68 Dương Quảng Hàm, P. 5, Q. Gò Vấp, Tp. Hồ Chí Minh</td>
+        </tr>
+    </table>
+</body>
+</html>
